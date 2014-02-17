@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{EB2DA23E-0F21-4b75-A0A9-17886057C316}" interactionclass="Responsive" key="$ProcessId" name="Windows-SharingWizard-ContextMenu-SpecificUsers-To-SharingWizard" sqmid="666" tags="ntshrui">
+        <event provider="{676F167F-F72C-446e-A498-EDA43319A5E3}" type="start" value="5001" version="0"/>
+        <event provider="{676F167F-F72C-446e-A498-EDA43319A5E3}" type="stop" value="5002" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

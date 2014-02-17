@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{13449fb0-8501-440c-8fd3-74fbc65cb12e}" interactionclass="Responsive" key="$ActivityId" name="Net-Provisioning-DocumentValidation" sqmid="763" tags="Networking Provisioning">
+        <event provider="{93a19ab3-fb2c-46eb-91ef-56b0a318b983}" type="start" value="1000" version="0"/>
+        <event provider="{93a19ab3-fb2c-46eb-91ef-56b0a318b983}" type="stop" value="1001" version="0"/>
+      </scenario>
+      <scenario guid="{5aa4e135-b96c-4873-aff3-e62da08012c2}" interactionclass="Continuous" key="$ActivityId" name="Net-Provisioning-DocumentProcessing" sqmid="764" tags="Networking Provisioning">
+        <event provider="{93a19ab3-fb2c-46eb-91ef-56b0a318b983}" type="start" value="2000" version="0"/>
+        <event provider="{93a19ab3-fb2c-46eb-91ef-56b0a318b983}" type="stop" value="2001" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

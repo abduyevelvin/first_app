@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedmetadata="@AnimationScenarioGUID,0,0,0,1,8,0,0 @PercentFramesGlitched,1,0,0,8,1,4,4 @TotalVSyncsDuringScenario,1,0,0,8,1,4,4 @GlitchesRecorded,1,0,0,8,1,4,4 @Delays,1,0,0,8,1,4,4" guid="{abea8051-ca85-4216-9889-48c4c87323ee}" interactionclass="Custom" metadata="PercentFramesGlitched,GlitchesRecorded,Delays,AnimationScenarioGUID" name="DWM-AnimationGlitchAnalysis" sqmdatapointid="7711" sqmid="1163" tags="DWM">
+        <event provider="{9e9bba3c-2e38-40cb-99f4-9e8281425164}" type="trigger" value="162" version="1"/>
+      </scenario>
+      <scenario digestedmetadata="@AnimationScenarioGUID,0,0,0,1,8,0,0 @TotalHits,1,0,0,8,1,4,4 @GlitchStatistics,1,0,0,8,1,4,4 @LatencyStatistics,1,0,0,8,1,4,4" guid="{78435a95-9ae2-4eed-942c-387c32b38cc2}" interactionclass="Custom" metadata="TotalHits,GlitchStatistics,LatencyStatistics,AnimationScenarioGUID" name="DWM-AnimationGlitchSummary" sqmdatapointid="7711" sqmid="1198" tags="DWM">
+        <event provider="{9e9bba3c-2e38-40cb-99f4-9e8281425164}" type="trigger" value="167" version="1"/>
+      </scenario>
+      <scenario digestedmetadata="@AvgLatency,0,0,0,8,1,4,4 @Latencies,0,0,4,8,1,4,4 @SurfaceSize,0,0,8,8,1,4,4 @Context,0,0,c,8,1,4,4 @AppUserModelID,0,0,10,1,8,0,0" guid="{ba92afe0-489b-4ce2-b484-57515408eef2}" interactionclass="Custom" metadata="AvgLatency,Latencies,SurfaceSize,Context,AppUserModelID" name="DWM-TouchLatencyAnalysis" sqmdatapointid="7726" sqmid="1267" tags="DWM">
+        <event provider="{9e9bba3c-2e38-40cb-99f4-9e8281425164}" type="trigger" value="177" version="1"/>
+      </scenario>
+      <scenario digestedmetadata="@TotalHits,0,0,0,8,1,4,4 @Latencies1,0,0,4,8,1,4,4 @Latencies2,0,0,8,8,1,4,4 @Latencies3,0,0,c,8,1,4,4 @Latencies4,0,0,10,8,1,4,4 @Latencies5,0,0,14,8,1,4,4" guid="{0d895c7d-d9dd-425f-973f-0a15b5bc77b2}" interactionclass="Custom" metadata="TotalHits,Latencies1,Latencies2,Latencies3,Latencies4,Latencies5" name="DWM-TouchLatencySummary" sqmdatapointid="7705" sqmid="1270" tags="DWM">
+        <event provider="{9e9bba3c-2e38-40cb-99f4-9e8281425164}" type="trigger" value="190" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

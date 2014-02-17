@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedkey="@a,0,0,8,0" guid="{d9342fa6-c7dc-458f-a87a-e302fb468cc2}" interactionclass="Typical" key="$ProcessId Object" name="DeviceStage-Ringtone-Navigation" sqmid="695" tags="DeviceStage Devices">
+        <event provider="{3DF0C2C1-5A04-4966-9790-DF6EF0CCDE9C}" type="start" value="1" version="0"/>
+        <event provider="{3DF0C2C1-5A04-4966-9790-DF6EF0CCDE9C}" type="stop" value="2" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

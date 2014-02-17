@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedkey="@a,0,0,8,0 @8,0,8,4,0" digestedmetadata="@ObjectWWA,0,0,0,a,2,8,8 @Counter,0,0,8,8,1,4,4 @PackageFullName,0,0,c,1,8,0,0 @AppID,1,0,c,1,8,0,0 @NavigationInfo,1,0,c,14,1,4,4" guid="{9ea2e83d-5f64-46b6-8722-77e62fed29e2}" interactionclass="Captive" key="$ThreadId ObjectWWA Counter" metadata="NavigationInfo,PackageFullName,AppID" name="WWAHost-Navigation" sqmdatapointid="7710" sqmid="896" tags="WWAHost">
+        <event provider="{98e0765d-8c42-44a3-a57b-760d7f93225a}" type="start" value="1011" version="0"/>
+        <event provider="{98e0765d-8c42-44a3-a57b-760d7f93225a}" type="stop" value="1012" version="0"/>
+      </scenario>
+      <scenario digestedmetadata="@PackageFullName,0,0,0,1,8,0,0 @AppID,1,0,0,1,8,0,0 @ContractID,1,0,0,1,8,0,0 @IsReactivation,1,0,0,8,1,4,4" guid="{19bcca5a-2302-4c18-bab1-ca045f9da879}" interactionclass="Responsive" key="$ThreadId" metadata="PackageFullName,AppID,ContractID,IsReactivation" name="WWAHost-ApplicationActivateEvent" sqmdatapointid="8147" sqmid="897" tags="WWAHost">
+        <event provider="{98e0765d-8c42-44a3-a57b-760d7f93225a}" type="start" value="1019" version="0"/>
+        <event provider="{98e0765d-8c42-44a3-a57b-760d7f93225a}" type="stop" value="1020" version="0"/>
+      </scenario>
+      <scenario digestedmetadata="@PackageFullName,0,0,0,1,8,0,0 @AppID,1,0,0,1,8,0,0" guid="{c0b60253-2e22-4863-91a9-4f5c8ec4161b}" interactionclass="Fast" key="$ThreadId" metadata="PackageFullName,AppID" name="WWAHost-ApplicationTermination" sqmdatapointid="7707" sqmid="898" tags="WWAHost">
+        <event provider="{98e0765d-8c42-44a3-a57b-760d7f93225a}" type="start" value="1021" version="0"/>
+        <event provider="{98e0765d-8c42-44a3-a57b-760d7f93225a}" type="stop" value="1022" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

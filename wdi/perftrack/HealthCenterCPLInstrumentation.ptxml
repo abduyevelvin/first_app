@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{a5f3d072-b08b-43e9-957e-e3fd9c72e3d2}" interactionclass="Responsive" key="$ProcessId" name="Shell-HealthCenterControlPanelLaunch" sqmid="252" tags="Shell UIC">
+        <event provider="{959F1FAC-7CA8-4ed1-89DC-CDFA7E093CB0}" type="start" value="100" version="0"/>
+        <event provider="{959F1FAC-7CA8-4ed1-89DC-CDFA7E093CB0}" type="stop" value="101" version="0"/>
+      </scenario>
+      <scenario guid="{981613fe-190c-48f2-8c14-7af860f0fecb}" interactionclass="Continuous" key="$Global" name="Shell-HealthCenterInvokeUserAccountControl" sqmid="706" tags="Shell UIC">
+        <event provider="{959F1FAC-7CA8-4ed1-89DC-CDFA7E093CB0}" type="start" value="108" version="0"/>
+        <event provider="{2683b597-3cca-410a-97fe-6f7ee3d09b94}" type="stop" value="16" version="0"/>
+      </scenario>
+      <scenario guid="{00e10858-0d30-4878-93ee-62a28e38d135}" interactionclass="Typical" key="$ProcessId" name="Shell-HealthCenter-OpenUsingIconFlyout" sqmid="668" tags="Shell UIC">
+        <event provider="{588C5C5A-FFC5-44A2-9A7F-D5E8DBE6EFD7}" type="start" value="1002" version="0"/>
+        <event provider="{959F1FAC-7CA8-4ed1-89DC-CDFA7E093CB0}" type="stop" value="109" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

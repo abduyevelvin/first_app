@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedkey="@f,0,0,10,0" guid="{5af65add-3bb6-4d0b-8337-acfebe1f139c}" interactionclass="Captive" key="$ProcessId ContainerID" name="DeviceStage-TaskSync-Navigation" sqmid="686" tags="DeviceStage Devices">
+        <event provider="{271C5228-C3FE-4e47-831F-48C3652CE5AC}" type="start" value="330" version="0"/>
+        <event provider="{271C5228-C3FE-4e47-831F-48C3652CE5AC}" type="stop" value="333" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

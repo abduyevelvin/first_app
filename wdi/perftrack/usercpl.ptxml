@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedmetadata="@TaskFlowID,0,0,0,8,1,4,4 @PageIndex,0,0,4,8,1,4,4" guid="{11ab78f1-f45b-4dfc-b1be-957dffebec3d}" interactionclass="Typical" key="$ProcessId" metadata="TaskFlowID,PageIndex" name="UAM_TaskFlowPageChange" sqmdatapointid="7702" sqmid="1145" tags="User Account Management">
+        <event provider="{319122A9-1485-4e48-AF35-7DB2D93B8AD2}" type="start" value="25000" version="0"/>
+        <event provider="{319122A9-1485-4e48-AF35-7DB2D93B8AD2}" type="stop" value="25001" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

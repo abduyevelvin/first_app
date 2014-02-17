@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedmetadata="@HrResult,0,0,0,8,1,4,4 @DeviceCategory,0,0,4,1,8,0,0" guid="{7f1ee934-3a2d-4d97-bb70-d4ff379e1267}" interactionclass="Continuous" key="$ProcessId" metadata="HrResult" name="DNX-Proximity-OOB-DeviceAssociation" sqmdatapointid="7709" sqmid="1269" tags="ProximityAssociation">
+        <event provider="{28058203-d394-4afc-b2a6-2f9155a3bb95}" type="start" value="14" version="0"/>
+        <event provider="{28058203-d394-4afc-b2a6-2f9155a3bb95}" type="stop" value="15" version="0"/>
+      </scenario>
+      <scenario digestedmetadata="@TransportType,0,0,0,8,1,4,4 @HrConnectResult,0,0,4,8,1,4,4" guid="{4b1b7a8e-691d-4546-9962-5b20cd971f5c}" interactionclass="Captive" key="$ProcessId" metadata="TransportType,HrConnectResult" name="DNX-Proximity-OOB-Socket-Connect" sqmdatapointid="7702" sqmid="1172" tags="DNX Proximity">
+        <event provider="{28058203-d394-4afc-b2a6-2f9155a3bb95}" type="start" value="40" version="0"/>
+        <event provider="{28058203-d394-4afc-b2a6-2f9155a3bb95}" type="stop" value="41" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

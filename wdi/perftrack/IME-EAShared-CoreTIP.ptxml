@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedmetadata="@Duration,0,0,0,8,1,4,4 @PreviousKey,0,0,4,8,1,4,4 @CurrentKey,0,0,8,8,1,4,4" guid="{fdf074fb-74d8-43bc-9199-95592bc4d78a}" interactionclass="Custom" metadata="Duration,PreviousKey,CurrentKey" name="IME-CHS-HWKBD-KeyProcess" sqmdatapointid="7702" sqmid="1062" tags="IME; CHS; Desktop; ImmersiveHWKBD">
+        <event provider="{bdd4b92e-19ef-4497-9c4a-e10e7fd2e227}" type="trigger" value="142" version="0"/>
+      </scenario>
+      <scenario digestedmetadata="@Duration,0,0,0,8,1,4,4 @PreviousKey,0,0,4,8,1,4,4 @CurrentKey,0,0,8,8,1,4,4" guid="{b975b597-3fea-460d-a4c9-fd32e917c1c2}" interactionclass="Custom" metadata="Duration,PreviousKey,CurrentKey" name="IME-CHT-HWKBD-KeyProcess" sqmdatapointid="7702" sqmid="1064" tags="IME; CHT; Desktop; ImmersiveHWKBD">
+        <event provider="{bdd4b92e-19ef-4497-9c4a-e10e7fd2e227}" type="trigger" value="143" version="0"/>
+      </scenario>
+      <scenario digestedmetadata="@Duration,0,0,0,8,1,4,4 @PreviousKey,0,0,4,8,1,4,4 @CurrentKey,0,0,8,8,1,4,4" guid="{e4586350-8dcd-44ff-bac2-74f9eb0b7d24}" interactionclass="Custom" metadata="Duration,PreviousKey,CurrentKey" name="IME-JPN-HWKBD-KeyProcess" sqmdatapointid="7702" sqmid="1058" tags="IME; JPN; Desktop; ImmersiveHWKBD">
+        <event provider="{bdd4b92e-19ef-4497-9c4a-e10e7fd2e227}" type="trigger" value="144" version="0"/>
+      </scenario>
+      <scenario digestedmetadata="@Duration,0,0,0,8,1,4,4 @PreviousKey,0,0,4,8,1,4,4 @CurrentKey,0,0,8,8,1,4,4" guid="{e9dd909a-dcab-4b72-9073-fa971b2b1b86}" interactionclass="Custom" metadata="Duration,PreviousKey,CurrentKey" name="IME-KOR-HWKBD-KeyProcess" sqmdatapointid="7702" sqmid="1060" tags="IME; KOR; Desktop; ImmersiveHWKBD">
+        <event provider="{bdd4b92e-19ef-4497-9c4a-e10e7fd2e227}" type="trigger" value="145" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

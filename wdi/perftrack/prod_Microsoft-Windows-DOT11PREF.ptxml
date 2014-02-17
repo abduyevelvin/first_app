@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{7fa2f1e9-7d95-4243-8e77-6f96402792f3}" interactionclass="Continuous" key="$ProcessId" name="NetUI-NetworkSharingCenter-DisplayWiFiNetworkList" sqmid="164" tags="Networking">
+        <event provider="{6a502821-ab44-40c8-b32f-37315d9d52e0}" type="start" value="6009" version="0"/>
+        <event provider="{CA5BA219-C0D4-4EFA-9CEB-72AFF92672B0}" type="stop" value="8001" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

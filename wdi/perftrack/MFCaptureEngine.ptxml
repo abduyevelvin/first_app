@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{06586c42-8622-4f43-bed2-d437017ee93a}" interactionclass="Captive" key="$ProcessId" name="Multimedia-CaptureToDisk-Finalize" sqmid="1144" tags="Platform;CaptureEngine">
+        <event provider="{B8197C10-845F-40ca-82AB-9341E98CFC2B}" type="start" value="212" version="0"/>
+        <event provider="{B8197C10-845F-40ca-82AB-9341E98CFC2B}" type="stop" value="213" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedmetadata="@NoIdleReason,0,0,0,8,1,4,4 @DATA1,0,0,4,8,1,4,4 @DATA2,0,0,8,8,1,4,4" guid="{1db62b25-1891-47af-9c45-fa9d4b06a64e}" interactionclass="Custom" metadata="NoIdleReason,DATA1,DATA2" name="Kernel-IdleScheduler-IdleConsumption" sqmdatapointid="7702" sqmid="909" tags="Idle">
+        <event provider="{DE7B24EA-73C8-4A09-985D-5BDADCFA9017}" type="trigger" value="510" version="0"/>
+      </scenario>
+      <scenario digestedmetadata="@TimeSinceUserNotPresent,0,0,0,8,1,4,4 @DATA,0,0,4,8,1,4,4" guid="{35d5a9fc-23d2-446d-9724-94ff68afabf2}" interactionclass="Custom" metadata="TimeSinceUserNotPresent,DATA" name="Kernel-IdleScheduler-IdleExit" sqmdatapointid="7698" sqmid="910" tags="Idle">
+        <event provider="{DE7B24EA-73C8-4A09-985D-5BDADCFA9017}" type="trigger" value="511" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

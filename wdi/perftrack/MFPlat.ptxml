@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{a28664bb-fca8-423d-ab51-0d2ecd047e3a}" interactionclass="Responsive" key="$ProcessId" name="Multimedia-Video-Capture " sqmid="724" tags="Platform">
+        <event provider="{f404b94e-27e0-4384-bfe8-1d8d390b0aa3}" type="start" value="3068" version="0"/>
+        <event provider="{f404b94e-27e0-4384-bfe8-1d8d390b0aa3}" type="stop" value="3070" version="0"/>
+      </scenario>
+      <scenario guid="{394264d2-836b-443a-a5d6-cdfd302d792b}" interactionclass="Responsive" key="$ProcessId" name="Multimedia-Audio-Capture " sqmid="732" tags="Platform">
+        <event provider="{f404b94e-27e0-4384-bfe8-1d8d390b0aa3}" type="start" value="3067" version="0"/>
+        <event provider="{f404b94e-27e0-4384-bfe8-1d8d390b0aa3}" type="stop" value="3069" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{f26f804a-8d5f-4819-9c65-dee1037474fc}" interactionclass="Continuous" key="$ProcessId" name="WPN-ConnectionManager-CreateConnection" sqmid="766" tags="PushNotifications">
+        <event provider="{88cd9180-4491-4640-b571-e3bee2527943}" type="start" value="1300" version="0"/>
+        <event provider="{88cd9180-4491-4640-b571-e3bee2527943}" type="end" value="1301" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

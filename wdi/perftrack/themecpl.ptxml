@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{659b484b-ced9-4b4b-ac09-68dd2dd5c312}" interactionclass="Responsive" key="$ProcessId" name="Shell-PersonalizationControlPanelLaunch" sqmid="249" tags="Shell UIC">
+        <event provider="{61F044AF-9104-4CA5-81EE-CB6C51BB01AB}" type="start" value="4" version="0"/>
+        <event provider="{61F044AF-9104-4CA5-81EE-CB6C51BB01AB}" type="stop" value="5" version="0"/>
+      </scenario>
+      <scenario guid="{57f5fb82-a430-4249-88dc-a7b9c39c3d9f}" interactionclass="Responsive" key="$ProcessId" name="Shell-DesktopBackgroundControlPanelLaunch" sqmid="250" tags="Shell UIC">
+        <event provider="{61F044AF-9104-4CA5-81EE-CB6C51BB01AB}" type="start" value="9" version="0"/>
+        <event provider="{61F044AF-9104-4CA5-81EE-CB6C51BB01AB}" type="stop" value="10" version="0"/>
+      </scenario>
+      <scenario guid="{68c1e5b8-e6d4-4827-9d44-bfee2f3ec44f}" interactionclass="Typical" key="$Global" name="Shell-ScreenSaverControlPanelLaunch" sqmid="658" tags="Shell UIC">
+        <event provider="{61F044AF-9104-4CA5-81EE-CB6C51BB01AB}" type="start" value="16" version="0"/>
+        <event provider="{869FB599-80AA-485D-BCA7-DB18D72B7219}" type="stop" value="16" version="0"/>
+      </scenario>
+      <scenario guid="{6f7be04c-5cf3-4f8b-b029-62c4d39f1879}" interactionclass="Typical" key="$ThreadId" name="Shell-DesktopBackgroundWallpaperSet" sqmid="704" tags="Shell UIC">
+        <event provider="{61F044AF-9104-4CA5-81EE-CB6C51BB01AB}" type="start" value="11" version="0"/>
+        <event provider="{61F044AF-9104-4CA5-81EE-CB6C51BB01AB}" type="stop" value="12" version="0"/>
+      </scenario>
+      <scenario guid="{b41ddc07-4b52-4212-a102-b02d458f4eec}" interactionclass="Continuous" key="$ThreadId" name="Shell-PersonalizationThemeSet" sqmid="705" tags="Shell UIC">
+        <event provider="{61F044AF-9104-4CA5-81EE-CB6C51BB01AB}" type="start" value="6" version="0"/>
+        <event provider="{61F044AF-9104-4CA5-81EE-CB6C51BB01AB}" type="stop" value="7" version="0"/>
+      </scenario>
+      <scenario guid="{f7fc7ff5-ca35-4ba6-aa53-db913034b7f6}" interactionclass="Responsive" key="$ThreadId" name="ThemeCPL-AccColorCplPageInit" sqmid="794" tags="ThemeCPL">
+        <event provider="{61F044AF-9104-4CA5-81EE-CB6C51BB01AB}" type="start" value="22" version="0"/>
+        <event provider="{61F044AF-9104-4CA5-81EE-CB6C51BB01AB}" type="stop" value="23" version="0"/>
+      </scenario>
+      <scenario guid="{d361ecc5-ede2-4978-b15b-489eba2e3be2}" interactionclass="Typical" key="$ThreadId" name="ThemeCPL-AccColorCplPagePreview" sqmid="795" tags="ThemeCPL">
+        <event provider="{61F044AF-9104-4CA5-81EE-CB6C51BB01AB}" type="start" value="24" version="0"/>
+        <event provider="{61F044AF-9104-4CA5-81EE-CB6C51BB01AB}" type="stop" value="25" version="0"/>
+      </scenario>
+      <scenario guid="{1976136a-0831-4e76-adf0-f77bf843e2c8}" interactionclass="Continuous" key="$ThreadId" name="ThemeCPL-AccColorCplPageApply" sqmid="796" tags="ThemeCPL">
+        <event provider="{61F044AF-9104-4CA5-81EE-CB6C51BB01AB}" type="start" value="26" version="0"/>
+        <event provider="{61F044AF-9104-4CA5-81EE-CB6C51BB01AB}" type="stop" value="27" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

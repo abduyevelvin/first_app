@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{29762d43-e60d-44f4-b53a-5f44fd020f90}" interactionclass="Responsive" key="$ProcessId" name="Shell-PowerOptionControlPanelLaunchFromContextMenu" sqmid="684" tags="Shell">
+        <event provider="{86133982-63d7-4741-928e-ef1349b80219}" type="start" value="107" version="0"/>
+        <event provider="{B1F90B27-4551-49d6-B2BD-DFC6453762A6}" type="stop" value="119" version="0"/>
+      </scenario>
+      <scenario guid="{46d33a3f-9ae3-40d1-baa9-678930fc1a66}" interactionclass="Responsive" key="$ProcessId" name="Shell-PowerOptionControlPanelLaunchFromFlyout" sqmid="685" tags="Shell">
+        <event provider="{86133982-63d7-4741-928e-ef1349b80219}" type="start" value="135" version="0"/>
+        <event provider="{B1F90B27-4551-49d6-B2BD-DFC6453762A6}" type="stop" value="119" version="0"/>
+      </scenario>
+      <scenario guid="{81920280-75e1-44bf-83c8-48fa614c0191}" interactionclass="Responsive" key="$ProcessId" name="Shell-PowerOptionControlPanelCreateNewPlanLaunch" sqmid="715" tags="shell">
+        <event provider="{B1F90B27-4551-49d6-B2BD-DFC6453762A6}" type="start" value="120" version="0"/>
+        <event provider="{B1F90B27-4551-49d6-B2BD-DFC6453762A6}" type="stop" value="121" version="0"/>
+      </scenario>
+      <scenario guid="{f4a6ef4c-00e3-4247-a295-9603d6800ee3}" interactionclass="Responsive" key="$ProcessId" name="Shell-PowerOptionControlPanelGlobalSettingsLaunch" sqmid="716" tags="shell">
+        <event provider="{B1F90B27-4551-49d6-B2BD-DFC6453762A6}" type="start" value="122" version="0"/>
+        <event provider="{B1F90B27-4551-49d6-B2BD-DFC6453762A6}" type="stop" value="123" version="0"/>
+      </scenario>
+      <scenario guid="{a940b5b8-3948-47e2-a156-15cc47b932df}" interactionclass="Responsive" key="$ProcessId" name="Shell-PowerOptionControlPanelPlanSettingsLaunch" sqmid="717" tags="shell">
+        <event provider="{B1F90B27-4551-49d6-B2BD-DFC6453762A6}" type="start" value="124" version="0"/>
+        <event provider="{B1F90B27-4551-49d6-B2BD-DFC6453762A6}" type="stop" value="125" version="0"/>
+      </scenario>
+      <scenario guid="{73d84ec3-5013-4e34-b832-a1cfe0ac2a47}" interactionclass="Responsive" key="$ProcessId" name="Shell-PowerOptionControlPanelPowerPlansLaunch" sqmid="718" tags="shell">
+        <event provider="{B1F90B27-4551-49d6-B2BD-DFC6453762A6}" type="start" value="126" version="0"/>
+        <event provider="{B1F90B27-4551-49d6-B2BD-DFC6453762A6}" type="stop" value="127" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

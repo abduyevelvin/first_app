@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{26647e72-5aa4-4d39-b3e7-dd8ea24a626a}" interactionclass="Continuous" key="$ProcessId" name="NetUI-NetworkSharingCenter-GetConnectedWizard" sqmid="447" tags="Networking">
+        <event provider="{6a502821-ab44-40c8-b32f-37315d9d52e0}" type="start" value="6007" version="0"/>
+        <event provider="{BE932B00-0F8E-4386-AB89-873F7D0274AA}" type="stop" value="8001" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

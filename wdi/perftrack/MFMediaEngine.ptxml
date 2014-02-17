@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{e8762f77-f52e-4887-b7a2-4c6439cb03b8}" interactionclass="Fast" key="$ProcessId" name="Multimedia-Video-and-Audio-Playback" sqmid="721" tags="Platform">
+        <event provider="{8f2048e0-f260-4f57-a8d1-932376291682}" type="start" value="121" version="0"/>
+        <event provider="{8f2048e0-f260-4f57-a8d1-932376291682}" type="stop" value="125" version="0"/>
+      </scenario>
+      <scenario guid="{6faa33c4-a36f-43be-ae0d-30ef09f910a8}" interactionclass="Fast" key="$ProcessId" name="Multimedia-Video-and-Audio-Playback-Cancel" sqmid="1074" tags="Platform">
+        <event provider="{8f2048e0-f260-4f57-a8d1-932376291682}" type="start" value="121" version="0"/>
+        <event provider="{8f2048e0-f260-4f57-a8d1-932376291682}" type="stop" value="123" version="0"/>
+      </scenario>
+      <scenario digestedmetadata="@NumGlitches,0,0,0,8,1,4,4" guid="{a728ef95-4e06-45d1-8a88-5af42c176dd2}" interactionclass="Custom" metadata="NumGlitches" name="Multimedia-Video-Glitch" sqmid="1130" tags="platform">
+        <event provider="{8f2048e0-f260-4f57-a8d1-932376291682}" type="trigger" value="134" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

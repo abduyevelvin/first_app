@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedmetadata="@Duration,0,0,0,8,1,4,4 @IMEType,0,0,4,8,1,4,4" guid="{fc00482c-d06a-427c-b25d-18274260865e}" interactionclass="Custom" metadata="Duration,IMEType" name="IME-CHS-HWKBD-CandUIProcess" sqmdatapointid="7698" sqmid="1063" tags="IME; CHS; Desktop; ImmersiveHWKBD">
+        <event provider="{c2c85865-95d7-4d5a-876e-3c789476b63e}" type="trigger" value="30" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

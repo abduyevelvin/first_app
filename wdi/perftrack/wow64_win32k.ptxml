@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedmetadata="@Flags,0,0,0,8,1,4,4 @DelayTimeMs,0,0,4,8,1,4,4 @TimeSinceInputRemoveMs,0,0,8,8,1,4,4 @TimeSinceOldestInputMs,0,0,c,8,1,4,4 @ClassName,0,0,10,1,8,0,0 @TopLevelClassName,1,0,10,1,8,0,0 @ImagePath,1,0,10,1,8,0,0 @MessageId,1,0,10,8,1,4,4 @WParam,1,0,10,a,2,8,8" guid="{AD2FAC4E-3379-45a1-A683-DDC0E5AC1DF1}" interactionclass="Typical" metadata="DelayTimeMs, TopLevelClassName, ClassName, WParam, MessageId, $ProgramId#6, Flags, $ProcessName#6" name="HIP-MessageCheckDelay" sqmdatapointid="1" sqmid="775" tags="HIP">
+        <event provider="{8c416c79-d49b-4f01-a467-e56d3aa8234c}" type="trigger" value="38" version="0"/>
+      </scenario>
+      <scenario digestedmetadata="@Flags,0,0,0,8,1,4,4 @TimeSinceInputRemoveMs,0,0,4,8,1,4,4 @TimeSinceOldestInputMs,0,0,8,8,1,4,4 @ClassName,0,0,c,1,8,0,0 @TopLevelClassName,1,0,c,1,8,0,0 @ImagePath,1,0,c,1,8,0,0 @MessageId,1,0,c,8,1,4,4 @WParam,1,0,c,a,2,8,8" guid="{65a1d4ef-bb35-420b-8e05-c1302bbda6fd}" interactionclass="Typical" metadata="TimeSinceOldestInputMs, TopLevelClassName, ClassName, WParam, MessageId, $ProgramId#5, Flags, $ProcessName#5" name="HIP-InputProcessDelay" sqmdatapointid="1" sqmid="831" tags="HIP">
+        <event provider="{8c416c79-d49b-4f01-a467-e56d3aa8234c}" type="trigger" value="37" version="0"/>
+      </scenario>
+      <scenario digestedmetadata="@Flags,0,0,0,8,1,4,4 @DelayTimeMs,0,0,4,8,1,4,4 @TimeSinceInputRemoveMs,0,0,8,8,1,4,4 @TimeSinceOldestInputMs,0,0,c,8,1,4,4 @ClassName,0,0,10,1,8,0,0 @TopLevelClassName,1,0,10,1,8,0,0 @PackageMoniker,1,0,10,1,8,0,0 @AppUserModelId,1,0,10,1,8,0,0 @MessageId,1,0,10,8,1,4,4 @WParam,1,0,10,a,2,8,8" guid="{c9c6cf66-3282-44fe-89c4-20564a57a9c5}" interactionclass="Typical" metadata="DelayTimeMs, TopLevelClassName, ClassName, WParam, MessageId, PackageMoniker, Flags, AppUserModelId" name="HIP-ImmersiveMessageCheckDelay" sqmdatapointid="1" sqmid="946" tags="HIP">
+        <event provider="{8c416c79-d49b-4f01-a467-e56d3aa8234c}" type="trigger" value="173" version="0"/>
+      </scenario>
+      <scenario digestedmetadata="@Flags,0,0,0,8,1,4,4 @TimeSinceInputRemoveMs,0,0,4,8,1,4,4 @TimeSinceOldestInputMs,0,0,8,8,1,4,4 @ClassName,0,0,c,1,8,0,0 @TopLevelClassName,1,0,c,1,8,0,0 @PackageMoniker,1,0,c,1,8,0,0 @AppUserModelId,1,0,c,1,8,0,0 @MessageId,1,0,c,8,1,4,4 @WParam,1,0,c,a,2,8,8" guid="{7a277812-15cd-4bb0-b175-a275bdd02fc8}" interactionclass="Typical" metadata="TimeSinceOldestInputMs, TopLevelClassName, ClassName, WParam, MessageId, PackageMoniker, Flags, AppUserModelId" name="HIP-ImmersiveInputProcessDelay" sqmdatapointid="1" sqmid="945" tags="HIP">
+        <event provider="{8c416c79-d49b-4f01-a467-e56d3aa8234c}" type="trigger" value="172" version="0"/>
+      </scenario>
+      <scenario digestedmetadata="@Orientation,0,0,0,8,1,4,4 @SensorOriginated,0,0,4,d,1,4,4" guid="{cb638326-70ee-4806-9d5b-1b682729667a}" interactionclass="Typical" key="$ProcessId" metadata="Orientation,SensorOriginated" name="ScreenAutoRotation-SmoothRotateScreen" sqmdatapointid="7702" sqmid="1161" tags="HIP">
+        <event provider="{8c416c79-d49b-4f01-a467-e56d3aa8234c}" type="start" value="160" version="0"/>
+        <event provider="{8c416c79-d49b-4f01-a467-e56d3aa8234c}" type="stop" value="161" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" digestedmetadata="@hWnd,0,0,0,8,1,4,4 @ViewState,0,0,4,8,1,4,4 @PackageName,0,0,8,1,8,0,0 @AppID,1,0,8,1,8,0,0" guid="{ae72322e-018b-44d4-8aa5-a006aadb7ea1}" interactionclass="Typical" key="hWnd" metadata="hWnd,ViewState,PackageName,AppID" name="ViewState_ResponseTime" sqmdatapointid="7712" sqmid="1303" tags="Rotation, ViewState, View State, Layout">
+        <event provider="{315a8872-923e-4ea2-9889-33cd4754bf64}" type="start" value="10000" version="0"/>
+        <event provider="{8c416c79-d49b-4f01-a467-e56d3aa8234c}" type="stop" value="10002" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

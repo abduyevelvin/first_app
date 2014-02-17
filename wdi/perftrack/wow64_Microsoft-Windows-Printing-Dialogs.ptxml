@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedmetadata="@HResult,0,0,0,8,1,4,4" guid="{55780a13-6deb-4b0a-b8a9-da03586ef9dd}" interactionclass="Continuous" key="$ProcessId" metadata="HResult" name="DNXPrint-MPDLaunch" sqmdatapointid="7698" sqmid="1252" tags="DNX Print">
+        <event provider="{27E76321-1E5B-4a82-BA0C-26E978F15072}" type="start" value="33" version="0"/>
+        <event provider="{27E76321-1E5B-4a82-BA0C-26E978F15072}" type="stop" value="34" version="0"/>
+      </scenario>
+      <scenario digestedmetadata="@HResult,0,0,0,8,1,4,4" guid="{17f93727-8458-4f4f-a016-28b16a086fdf}" interactionclass="Captive" key="$ProcessId" metadata="HResult" name="DNXPrint-ShowFirstPreviewPage" sqmdatapointid="7698" sqmid="1253" tags="DNX Print">
+        <event provider="{27E76321-1E5B-4a82-BA0C-26E978F15072}" type="start" value="19" version="0"/>
+        <event provider="{27E76321-1E5B-4a82-BA0C-26E978F15072}" type="stop" value="30" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

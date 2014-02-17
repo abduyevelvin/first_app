@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{db24c61a-3130-4d89-920d-a4c57007da0e}" interactionclass="Responsive" key="$ProcessId" name="TM8-Open-Application" sqmid="839" tags="TM8">
+        <event provider="{178dadaf-7ac4-4593-ab3e-a45fda6d0d55}" type="start" value="5200" version="0"/>
+        <event provider="{178dadaf-7ac4-4593-ab3e-a45fda6d0d55}" type="stop" value="5201" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" digestedmetadata="@TabId,0,0,0,8,1,4,4" guid="{8eccc220-53f9-41d0-99bb-29bdc49844ec}" interactionclass="Fast" key="$ProcessId TabId" metadata="TabId" name="TM8-Switch-Tabs" sqmdatapointid="7698" sqmid="840" tags="TM8">
+        <event provider="{178dadaf-7ac4-4593-ab3e-a45fda6d0d55}" type="start" value="5202" version="0"/>
+        <event provider="{178dadaf-7ac4-4593-ab3e-a45fda6d0d55}" type="stop" value="5203" version="0"/>
+      </scenario>
+      <scenario digestedmetadata="@ProcessOrPackageName,0,0,0,1,8,0,0" guid="{10a230e6-56ad-41c8-9381-5de83233d921}" interactionclass="Fast" key="$ProcessId" metadata="ProcessOrPackageName" name="TM8-Kill-Process" sqmdatapointid="7706" sqmid="841" tags="TM8">
+        <event provider="{178dadaf-7ac4-4593-ab3e-a45fda6d0d55}" type="start" value="5204" version="0"/>
+        <event provider="{178dadaf-7ac4-4593-ab3e-a45fda6d0d55}" type="stop" value="5205" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

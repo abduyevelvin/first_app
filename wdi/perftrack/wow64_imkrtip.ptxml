@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedmetadata="@Duration,0,0,0,8,1,4,4 @IMEType,0,0,4,8,1,4,4" guid="{42180350-f478-4268-8f98-4cb16a52c961}" interactionclass="Custom" metadata="Duration,IMEType" name="IME-KOR-HWKBD-CandUIProcess" sqmdatapointid="7698" sqmid="1061" tags="IME; KOR; Desktop; ImmersiveHWKBD">
+        <event provider="{e013e74b-97f4-4e1c-a120-596e5629ecfe}" type="trigger" value="10" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

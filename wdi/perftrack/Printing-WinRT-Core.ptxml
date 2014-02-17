@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedmetadata="@HResult,0,0,0,8,1,4,4" guid="{264f6409-c313-4cc6-8d5b-ac4df194ff24}" interactionclass="Fast" key="$ProcessId" metadata="HResult" name="DNXPrint-EnsureDocumentSource" sqmdatapointid="7698" sqmid="1255" tags="DNX Print">
+        <event provider="{E7AA32FB-77D0-477F-987D-7E83DF1B7ED0}" type="start" value="3" version="0"/>
+        <event provider="{E7AA32FB-77D0-477F-987D-7E83DF1B7ED0}" type="stop" value="4" version="0"/>
+      </scenario>
+      <scenario digestedmetadata="@HResult,0,0,0,8,1,4,4 @Name,0,0,4,1,8,0,0" guid="{0a07ab82-35cc-47ff-9dd1-62264d367b06}" interactionclass="Continuous" key="$ProcessId" metadata="HResult, Name" name="DNXPrint-BindPrinter" sqmdatapointid="7709" sqmid="1254" tags="DNX Print">
+        <event provider="{E7AA32FB-77D0-477F-987D-7E83DF1B7ED0}" type="start" value="5" version="0"/>
+        <event provider="{E7AA32FB-77D0-477F-987D-7E83DF1B7ED0}" type="stop" value="6" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

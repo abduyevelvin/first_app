@@ -1,0 +1,42 @@
+#PRAGMA AUTORECOVER
+#pragma classflags("forceupdate")
+#pragma namespace("\\\\.\\root\\WMI")
+
+Qualifier Description : ToSubClass Amended;
+Qualifier Values : ToSubClass Amended;
+Qualifier DisplayName : Amended;
+Qualifier BitValues:ToSubClass Amended;
+
+//
+// WPP Generated File
+// PDB:  y:\vbl_dev.obj.x86fre\TermSrv\AAG\lib\objfre\i386\aaclient.pdb
+// PDB:  Last Updated :2006-3-1:1:22:59:28 (UTC) [binplace]
+//
+
+//ModuleName = AAClientTrace	 (Init called in Function WPP_CONTROL_ANNOTATION)
+[Dynamic,
+ Description("Gateway Client Trace"),
+ guid("{70DB53D8-B6F3-428d-AA33-5B2CE56718C5}"),
+ locale("MS\\0x409")]
+class AAClientTrace : EventTrace
+{
+    [Description ("Enable Flags") ,
+        ValueDescriptions{
+             "TS_TRACE_LEVEL_NRM Flag",
+             "TS_TRACE_LEVEL_ERROR Flag",
+             "TS_TRACE_LEVEL_ASSERT Flag"},
+        DefineValues{
+             "TS_TRACE_LEVEL_NRM",
+             "TS_TRACE_LEVEL_ERROR",
+             "TS_TRACE_LEVEL_ASSERT"},
+        Values{
+             "TS_TRACE_LEVEL_NRM",
+             "TS_TRACE_LEVEL_ERROR",
+             "TS_TRACE_LEVEL_ASSERT"},
+        ValueMap{
+             "0x00000001",
+             "0x00000002",
+             "0x00000004"}
+    ]
+    uint32 Flags;
+};
